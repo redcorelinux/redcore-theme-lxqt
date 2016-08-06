@@ -1,4 +1,4 @@
-# Kogaion theme for lxqt
+# Kogaion themes for lxqt
 
 per-user install, files should land in ~/.local/share/lxqt/themes
 

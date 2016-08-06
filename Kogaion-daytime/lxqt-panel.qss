@@ -128,11 +128,9 @@ QCalendarWidget #qt_calendar_navigationbar {
     border-top: 1px solid #6e6e6e;
     border-left: 1px solid #6e6e6e;
     border-right: 1px solid #6e6e6e;
-/*    border: 1px solid #6e6e6e; */
 }
 
 QCalendarWidget QToolButton {
-/*    background-color: #2d2d2d; */
     color: #555555;
     padding:2px;
     margin: 2px;
@@ -361,7 +359,6 @@ VolumePopup  > QSlider::handle:vertical {
 
 VolumePopup  > QSlider::add-page:vertical {
     background: #157DEC;
-/*    border: 1px solid #2D2D2D; */
     border-radius: 0px;
 }
 
@@ -374,7 +371,7 @@ border-radius: 0px;
  * Clock
  */
 #Clock{
-    margin: 2px;
+    margin: 0px;
     padding: 2px;
 }
 
