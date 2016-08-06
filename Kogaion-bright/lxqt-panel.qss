@@ -220,19 +220,19 @@ QCalendarWidget QSpinBox {
  * TaskBar
  */
 #TaskBar QToolButton{
-    border-left: 3px solid #6e6e6e;
+    border-left: 1px solid #6e6e6e;
     margin: 2px;
     padding: 2px;
 }
 
 #TaskBar QToolButton:on{
     background: #cccccc;
-    border-left: 3px solid #157DEC;
+    border-left: 1px solid #157DEC;
 }
 
 #TaskBar QToolButton:hover{
     background: #157dec;
-    border-left: 3px solid #157dec;
+    border-left: 1px solid #157dec;
 }
 
 #TaskBar QToolButton:pressed {
