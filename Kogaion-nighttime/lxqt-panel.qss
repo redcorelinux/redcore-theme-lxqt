@@ -39,7 +39,7 @@ Plugin > QToolButton,
 Plugin > QWidget > QToolButton,
 Plugin > QWidget > QToolButton > QWidget > QToolButton,
 LXQtPanelPlugin > QToolButton {
-    margin: 2px;
+    margin: 1px;
     border: 0px solid transparent;
     outline: none;
     qproperty-iconSize: 24px;
@@ -55,7 +55,7 @@ LXQtPanelPlugin > QToolButton:hover {
 Plugin > QToolButton:pressed,
 Plugin > QWidget > QToolButton:pressed,
 LXQtPanelPlugin > QToolButton:pressed {
-    padding: 4px;
+    padding: 2px;
 }
 
 /*
@@ -207,7 +207,7 @@ QCalendarWidget QSpinBox {
 
 #QuickLaunch QToolButton{
     border: 0px;
-    margin: 2px;
+    margin: 1px;
     padding: 2px;
 }
 
@@ -224,7 +224,7 @@ QCalendarWidget QSpinBox {
  */
 #TaskBar QToolButton{
     border-bottom: 1px solid #4C4C4C;
-    margin: 2px;
+    margin: 1px;
     padding: 2px;
 }
 
@@ -269,7 +269,7 @@ TrayIcon {
  */
 #LXQtMountPlugin QToolButton{
     border: 0px;
-    margin: 2px;
+    margin: 1px;
     padding: 2px;
 }
 
@@ -317,7 +317,7 @@ TrayIcon {
  */
 #VolumePlugin QToolButton{
     border: 0px;
-    margin: 2px;
+    margin: 1px;
     padding: 2px;
 }
 
@@ -331,13 +331,16 @@ TrayIcon {
 
 VolumePopup {
     background: #2D2D2D;
-    margin: 2px;
+    border: 1px solid #4C4C4C;
+    margin: 0px;
     padding: 2px;
 }
 
-VolumePopup  > QPushButton:flat {
+VolumePopup  > QPushButton {
     color: #DEDEDE;
     background: #2D2D2D;
+    border: 1px solid #4C4C4C;
+    border-radius: 0px;
     padding: 2px 10px;
     margin: 3px;
     qproperty-iconSize: 24px;
@@ -345,6 +348,7 @@ VolumePopup  > QPushButton:flat {
 
 VolumePopup  > QPushButton:hover {
     border: 1px solid #1956a6;
+    background: #1f3d65;
 }
 
 VolumePopup  > QSlider::groove:vertical {
@@ -374,7 +378,7 @@ border-radius: 0px;
  * Clock
  */
 #Clock{
-    margin: 0px;
+    margin: 1px;
     padding: 2px;
 }
 
@@ -401,7 +405,7 @@ border-radius: 0px;
  */
 #ShowDesktop {
     border: 0px;
-    margin: 2px;
+    margin: 1px;
     padding: 2px;
 }
 
@@ -417,20 +421,21 @@ border-radius: 0px;
  * Desktopswitch
  */
 #DesktopSwitch QToolButton {
-    margin: 2px;
+    margin: 1px;
     color: #DEDEDE;
-    border-bottom: 3px solid #4C4C4C;
+    border-bottom: 1px solid #4C4C4C;
     background: #2D2D2D;
+    padding: 2px;
 }
 
 #DesktopSwitch QToolButton:on {
     background: #1A1A1A;
-    border-bottom: 3px solid #1956a6;
+    border-bottom: 1px solid #1956a6;
 }
 
 #DesktopSwitch QToolButton:hover {
     border: 1px solid #1956a6;
-    border-bottom: 3px solid #1956a6;
+    border-bottom: 1px solid #1956a6;
 }
 
 #DesktopSwitch QToolButton:pressed {
@@ -447,7 +452,7 @@ border-radius: 0px;
  */
 #PanelScreenSaver {
     border: 0px;
-    margin: 2px;
+    margin: 1px;
     padding: 2px;
 }
 
