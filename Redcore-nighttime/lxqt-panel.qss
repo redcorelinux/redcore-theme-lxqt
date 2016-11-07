@@ -27,7 +27,7 @@ Plugin,
 LXQtPanelPlugin {
     padding: 0;
     spacing: 20px;
-    qproperty-moveMarkerColor: #1956a6;
+    qproperty-moveMarkerColor: #990000;
 }
 
 Plugin  > QWidget,
@@ -86,7 +86,7 @@ QMenu::item {
 }
 
 QMenu::item:selected {
-    background: #1956a6;
+    background: #990000;
     color: #dedede;
 }
 
@@ -108,7 +108,7 @@ QMenu::right-arrow {
 
 QCalendarWidget QAbstractItemView:enabled {
     color: #dedede;
-    selection-background-color: #1956a6;
+    selection-background-color: #990000;
     selection-color: #dedede;
     border: 1px solid #6e6e6e;
     border-top: transparent;
@@ -140,7 +140,7 @@ QCalendarWidget QToolButton {
 QCalendarWidget QToolButton:hover {
     color: #DEDEDE;
     background: #1f3d65;
-    border: 1px solid #1956a6;
+    border: 1px solid #990000;
 }
 
 QCalendarWidget QToolButton::menu-indicator {
@@ -165,13 +165,13 @@ QCalendarWidget QMenu {
 
 QCalendarWidget QMenu::item:selected {
     color: #DEDEDE;
-    background: #1956a6;
+    background: #990000;
 }
 
 QCalendarWidget QSpinBox {
     color: #DEDEDE;
     background-color: #4C4C4C;
-    selection-background-color: #1956a6;
+    selection-background-color: #990000;
     selection-color: #DEDEDE;
 }
 
@@ -191,7 +191,7 @@ QCalendarWidget QSpinBox {
 }
 
 #MainMenu:hover {
-    border: 1px solid #1956a6;
+    border: 1px solid #990000;
 }
 
 #MainMenu:pressed {
@@ -212,7 +212,7 @@ QCalendarWidget QSpinBox {
 }
 
 #QuickLaunch QToolButton:hover{
-   border: 1px solid #1956a6;
+   border: 1px solid #990000;
 }
 
 #QuickLaunch QToolButton:pressed {
@@ -230,12 +230,12 @@ QCalendarWidget QSpinBox {
 
 #TaskBar QToolButton:on{
     background: #1A1A1A;
-    border-bottom: 1px solid #1956a6;
+    border-bottom: 1px solid #990000;
 }
 
 #TaskBar QToolButton:hover{
-    background: #1956a6;
-    border-bottom: 1px solid #1956a6;
+    background: #990000;
+    border-bottom: 1px solid #990000;
 }
 
 #TaskBar QToolButton:pressed {
@@ -249,7 +249,7 @@ QCalendarWidget QSpinBox {
 
 #TaskBar LXQtGroupPopup {
     background: #2D2D2D;
-    border: 1px solid #1956a6;
+    border: 1px solid #990000;
 }
 /*
  * Tray Plugin
@@ -274,7 +274,7 @@ TrayIcon {
 }
 
 #LXQtMountPlugin QToolButton:hover {
-    border: 1px solid #1956a6;
+    border: 1px solid #990000;
 }
 
 #LXQtMountPlugin QToolButton:pressed {
@@ -304,7 +304,7 @@ TrayIcon {
 
 #LXQtMountPopup #EjectButton:hover,
 #LXQtMountPopup #DiskButton:hover {
-    border: 1px solid #1956a6;
+    border: 1px solid #990000;
 }
 
 #LXQtMountPopup #NoDiskLabel {
@@ -322,7 +322,7 @@ TrayIcon {
 }
 
 #VolumePlugin QToolButton:hover {
-    border: 1px solid #1956a6;
+    border: 1px solid #990000;
 }
 
 #VolumePlugin QToolButton:pressed {
@@ -347,7 +347,7 @@ VolumePopup  > QPushButton {
 }
 
 VolumePopup  > QPushButton:hover {
-    border: 1px solid #1956a6;
+    border: 1px solid #990000;
     background: #1f3d65;
 }
 
@@ -365,7 +365,7 @@ VolumePopup  > QSlider::handle:vertical {
  }
 
 VolumePopup  > QSlider::add-page:vertical {
-    background: #1956a6;
+    background: #990000;
     border-radius: 0px;
 }
 
@@ -383,7 +383,7 @@ border-radius: 0px;
 }
 
 #Clock:hover {
-    border: 1px solid #1956a6;
+    border: 1px solid #990000;
 }
 
 #Clock:pressed {
@@ -410,7 +410,7 @@ border-radius: 0px;
 }
 
 #ShowDesktop:hover {
-    border: 1px solid #1956a6;
+    border: 1px solid #990000;
 }
 
 #ShowDesktop:pressed {
@@ -430,12 +430,12 @@ border-radius: 0px;
 
 #DesktopSwitch QToolButton:on {
     background: #1A1A1A;
-    border-bottom: 1px solid #1956a6;
+    border-bottom: 1px solid #990000;
 }
 
 #DesktopSwitch QToolButton:hover {
-    border: 1px solid #1956a6;
-    border-bottom: 1px solid #1956a6;
+    border: 1px solid #990000;
+    border-bottom: 1px solid #990000;
 }
 
 #DesktopSwitch QToolButton:pressed {
@@ -457,7 +457,7 @@ border-radius: 0px;
 }
 
 #PanelScreenSaver:hover {
-    border: 1px solid #1956a6;
+    border: 1px solid #990000;
 }
 
 #PanelScreenSaver:pressed {
@@ -477,7 +477,7 @@ border-radius: 0px;
 }
 
 #KbIndicator QLabel:enabled {
-    background: #1956a6;
+    background: #990000;
 }
 
 /*
@@ -489,7 +489,7 @@ border-radius: 0px;
 }
 
 #WorldClock:hover {
-    border: 1px solid #1956a6;
+    border: 1px solid #990000;
 }
 
 #WorldClock QLabel {
@@ -543,7 +543,7 @@ border-radius: 0px;
 }
 
 #DomPlugin QToolButton:hover {
-    border: 1px solid #1956a6;
+    border: 1px solid #990000;
 }
 
 #DomPlugin QToolButton:pressed {
