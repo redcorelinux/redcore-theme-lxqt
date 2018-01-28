@@ -184,7 +184,7 @@ QCalendarWidget QSpinBox {
 }
 
 #MainMenu {
-    background: #2D2D2D;
+    background: transparent;
     qproperty-icon: url(mainmenu.png);
     padding: 2px;
     color: #DEDEDE;
@@ -229,7 +229,7 @@ QCalendarWidget QSpinBox {
 }
 
 #TaskBar QToolButton:on{
-    background: #1A1A1A;
+    background: #801A1A1A;
     border-bottom: 1px solid #520A0A;
 }
 
@@ -424,12 +424,12 @@ border-radius: 0px;
     margin: 1px;
     color: #DEDEDE;
     border-bottom: 1px solid #4C4C4C;
-    background: #2D2D2D;
+    background: transparent;
     padding: 2px;
 }
 
 #DesktopSwitch QToolButton:on {
-    background: #1A1A1A;
+    background: transparent;
     border-bottom: 1px solid #520A0A;
 }
 
@@ -485,7 +485,8 @@ border-radius: 0px;
  */
 
 #WorldClock {
-    margin: 2px;
+    margin: 1px;
+    padding: 2px;
 }
 
 #WorldClock:hover {
@@ -493,7 +494,8 @@ border-radius: 0px;
 }
 
 #WorldClock QLabel {
-    margin: 2px;
+    margin-left: 6px;
+    margin-right: 6px;
     color: #DEDEDE;
 }
 
@@ -568,12 +570,12 @@ border-radius: 0px;
 
 #Spacer[orientation="horizontal"] {
     background-repeat: repeat-y;
-    margin-top: 2px;
-    margin-bottom: 2px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 #Spacer[orientation="vertical"] {
     background-repeat: repeat-x;
-    margin-right: 2px;
-    margin-left: 2px;
+    margin-right: 0px;
+    margin-left: 0px;
 }

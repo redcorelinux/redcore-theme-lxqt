@@ -9,9 +9,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="0.84666669mm"
-   height="0.84666669mm"
-   viewBox="0 0 3.0000001 3.0000001"
+   width="0.99999994"
+   height="0.99999994"
+   viewBox="0 0 0.99999996 0.99999996"
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
@@ -60,8 +60,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="64"
-     inkscape:cx="0.56778045"
-     inkscape:cy="3.1661659"
+     inkscape:cx="-1.7369116"
+     inkscape:cy="3.1661617"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -71,21 +71,22 @@
      showguides="false"
      inkscape:guide-bbox="true"
      inkscape:window-width="1920"
-     inkscape:window-height="912"
-     inkscape:window-x="-2"
-     inkscape:window-y="-3"
+     inkscape:window-height="1023"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:snap-global="false"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
-     fit-margin-bottom="0">
+     fit-margin-bottom="0"
+     units="px">
     <sodipodi:guide
-       position="32.575118,-304.41072"
+       position="32.575113,-304.41072"
        orientation="0,1"
        id="guide4211" />
     <sodipodi:guide
-       position="33.110828,-337"
+       position="33.110823,-337"
        orientation="0,1"
        id="guide4213" />
   </sodipodi:namedview>
@@ -105,13 +106,13 @@
      inkscape:label="Capa 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-373.85345,-518.25507)">
+     transform="translate(-373.85345,-520.25507)">
     <rect
-       y="518.25507"
+       y="520.25507"
        x="373.85345"
-       height="3"
-       width="3"
+       height="1"
+       width="1"
        id="rect4290"
-       style="fill:#ffffff;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+       style="fill:#ffffff;fill-opacity:0.19607843;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
   </g>
 </svg>
