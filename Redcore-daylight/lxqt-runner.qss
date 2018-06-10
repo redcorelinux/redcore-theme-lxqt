@@ -4,7 +4,7 @@
 
 #panel {
     border: 1px solid #520A0A;
-    background:#dedede;
+    background:#eff0f1;
     padding: 2px;
     margin: 0px;
 }
@@ -22,12 +22,12 @@ QToolButton {
     border: 0px solid transparent;
     padding: 0px;
     font-size: 10pt;
-    color: #DEDEDE;
+    color: #eff0f1;
     qproperty-iconSize: 20px;
 }
 
 QToolButton:hover {
-    border: 0px solid #DEDEDE;
+    border: 0px solid #eff0f1;
     margin: 1px;
     padding: 1px;
 
@@ -50,7 +50,7 @@ QToolButton:hover {
     padding: 0px;
     margin: 0px;
     background: white;
-    color: #2D2D2D;
+    color: #31363b;
     selection-background-color: #1A80B6;
     selection-color: white;
 }

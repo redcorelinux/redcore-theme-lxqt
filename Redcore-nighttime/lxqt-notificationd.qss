@@ -1,11 +1,11 @@
 Notification {
-    background:#2D2D2D;
+    background:#31363b;
     padding: 1px;
     margin: 0px;
 }
 
 QLabel {
-    color: #DEDEDE;
+    color: #eff0f1;
 }
 
 QToolButton {
@@ -35,7 +35,7 @@ QToolButton:pressed {
 }
 
 #appLabel {
-    color: #DEDEDE;
+    color: #eff0f1;
 }
 
 #closeButton {

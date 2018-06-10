@@ -8,13 +8,13 @@
  */
 
 LXQtPanel #BackgroundWidget {
-    background: #dedede;
+    background: #eff0f1;
 }
 
 QToolTip {
     border: 0px solid #4C4C4C;
     background:#1A1A1A;
-    color: #DEDEDE;
+    color: #eff0f1;
     padding: 1px;
     margin: 0px;
 }
@@ -32,7 +32,7 @@ LXQtPanelPlugin {
 
 Plugin  > QWidget,
 Plugin  > QWidget > QWidget {
-    color: #DEDEDE;
+    color: #eff0f1;
 }
 
 Plugin > QToolButton,
@@ -49,7 +49,7 @@ LXQtPanelPlugin > QToolButton {
 Plugin > QToolButton:hover,
 Plugin > QWidget > QToolButton:hover,
 LXQtPanelPlugin > QToolButton:hover {
-    color: #DEDEDE;
+    color: #eff0f1;
 }
 
 Plugin > QToolButton:pressed,
@@ -63,7 +63,7 @@ LXQtPanelPlugin > QToolButton:pressed {
  */
 
 QMenu {
-    background-color: #dedede;
+    background-color: #eff0f1;
     border: 1px solid #6e6e6e;
 }
 
@@ -91,7 +91,7 @@ QMenu::item:selected {
 }
 
 QMenu::item:selected:disabled {
-    background-color: #2D2D2D;
+    background-color: #31363b;
 }
 
 QMenu::item:disabled {
@@ -107,7 +107,7 @@ QMenu::right-arrow {
 */
 
 QCalendarWidget QAbstractItemView:enabled {
-    color: #2D2D2D;
+    color: #31363b;
     selection-background-color: #520A0A;
     selection-color: #f9f9f9;
     border: 1px solid #6e6e6e;
@@ -119,10 +119,10 @@ QCalendarWidget QAbstractItemView:disabled {
 }
 
 QCalendarWidget QWidget {
-    alternate-background-color: #DEDEDE;
+    alternate-background-color: #eff0f1;
 }
 QCalendarWidget #qt_calendar_navigationbar {
-    background-color: #dedede;
+    background-color: #eff0f1;
     color: #555555;
     padding: 2px;
     border-top: 1px solid #6e6e6e;
@@ -137,7 +137,7 @@ QCalendarWidget QToolButton {
 }
 
 QCalendarWidget QToolButton:hover {
-    color: #DEDEDE;
+    color: #eff0f1;
 }
 
 QCalendarWidget QToolButton::menu-indicator {
@@ -156,20 +156,20 @@ QCalendarWidget #qt_calendar_prevmonth {
 
 QCalendarWidget QMenu {
     border-color: #6e6e6e;
-    background-color: #dedede;
+    background-color: #eff0f1;
     color: #555555;
 }
 
 QCalendarWidget QMenu::item:selected {
-    color: #DEDEDE;
+    color: #eff0f1;
     background: #520A0A;
 }
 
 QCalendarWidget QSpinBox {
-    color: #DEDEDE;
+    color: #eff0f1;
     background-color: #4C4C4C;
     selection-background-color: #520A0A;
-    selection-color: #DEDEDE;
+    selection-color: #eff0f1;
 }
 
 /*
@@ -245,7 +245,7 @@ QCalendarWidget QSpinBox {
 }
 
 #TaskBar LXQtGroupPopup {
-    background: #dedede;
+    background: #eff0f1;
     border: 1px solid #520A0A;
 }
 /*
@@ -279,7 +279,7 @@ TrayIcon {
 }
 
 #LXQtMountPopup {
-    background-color: #dedede;
+    background-color: #eff0f1;
     padding: 4px;
 }
 
@@ -328,7 +328,7 @@ TrayIcon {
 
 VolumePopup {
     border: 1px solid #6e6e6e;
-    background: #dedede;
+    background: #eff0f1;
     margin: 0px;
     padding: 2px;
 }
